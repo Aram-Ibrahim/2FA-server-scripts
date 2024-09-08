@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>TOTP Verification</title>
+  </head>
+
+  <body>
+    <h1>TOTP Verification</h1>
+    
+    <p>Your secret key is: <%= secretKey %></p>
+    
+    <form action="/2fa/verify" method="post">
+      <label for="totpCode">Enter your TOTP code:</label>
+      <input type="text" id="totpCode" name="totpCode">
+      <button type="submit">Verify</button>
+    </form>
+
+  </body>
+</html>
