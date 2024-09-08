@@ -1,5 +1,5 @@
 # 2FA-server-scripts
-2 Factor authentication scripts for server side.
+Two Factor authentication scripts for server side.
 
 # What is the purpose?
 This software helps adding 2FA featue to websites.
