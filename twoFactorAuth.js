@@ -39,7 +39,7 @@ router.get('/', (req, res) => {
 
 router.post('/verify', (req, res) => {
   const totpCode = req.body.totpCode;
-  if (verifyTOTPCode(secretKey, totpCode) 
+  if (verifyTOTPCode(secretKey, totpCode)) 
   {
     res.send('TOTP code is valid!');
   } 
